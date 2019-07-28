@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+<TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<Spinner
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+         android:prompt="@string/title"
+        />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub category"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        />
+ <Spinner
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:entries="@array/Brand"
+        android:spinnerMode="dialog"
+        android:prompt="@string/title1"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+    
+   
+    
+    <Spinner
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:entries="@array/Product"
+        android:spinnerMode="dialog"
+        android:prompt="@string/title2"
+         />
+ 
+    
+   
+    
+    
+    
+    <Button
+        android:id="@+id/add1"
+       android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:text="View"
+        android:textSize="25sp"
+        android:padding="5dp"
+        
+        android:background="@color/colorPrimaryLight"/>
+
+   <!-- <Button
+        android:id="@+id/sync"
+       android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Update"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:textColor="@color/textColorPrimary"
+        android:background="@drawable/back"/>
+       />
+    -->
+    
+    <Button
+        android:id="@+id/btn_back3"
+       android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Back"
+        android:textSize="25sp"
+        android:padding="5dp"
+        
+        android:background="@color/colorPrimaryLight"/>
+       
+    
+</LinearLayout>

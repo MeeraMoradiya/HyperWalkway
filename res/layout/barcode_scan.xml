@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <Button
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="scanAgain"
+        android:text="Re-Scan" />
+    <fragment
+        android:id="@+id/sample"
+        android:name="com.abhi.barcode.frag.libv2.BarcodeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scan"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    
+
+</LinearLayout>

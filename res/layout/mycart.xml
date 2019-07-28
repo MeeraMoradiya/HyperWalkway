@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      >
+
+ <ListView
+     android:id="@+id/listView_cart"
+     android:layout_width="match_parent"
+     android:layout_height="350dp" >
+
+    </ListView>
+    
+   
+
+    <Button
+        android:id="@+id/btn_back7"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/btn_back7"
+        android:layout_toRightOf="@+id/btn_back7"
+        android:text="Done" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_done"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:text="Total:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/txt_total"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/textview2"
+         android:layout_alignBottom="@+id/textview2"
+         android:layout_marginLeft="15dp"
+         android:layout_toRightOf="@+id/textview2"
+         android:text="Value"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</RelativeLayout>

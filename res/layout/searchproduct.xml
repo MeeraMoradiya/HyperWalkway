@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+   <!--  <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         /> -->
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Product Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+        android:id="@+id/btn_search"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        
+        android:background="@color/colorPrimaryLight"
+        android:text="Search" />
+
+        <ImageButton
+            android:id="@+id/img_btn_search"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/voice" />
+        
+    </LinearLayout>
+	
+    
+    <ListView
+        android:id="@+id/lst_bills"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_weight="0.58" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_back5"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:background="@color/colorPrimaryLight"
+        android:text="Back" />
+
+</LinearLayout>

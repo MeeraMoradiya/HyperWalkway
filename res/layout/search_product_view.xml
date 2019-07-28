@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+
+     	<LinearLayout     
+         android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+        	<TextView
+             android:id="@+id/t1"
+             android:layout_width="164dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="70dp"
+             android:text="Product View"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+     	</LinearLayout>
+     
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="260dp"
+			android:orientation="horizontal">
+       
+     			<LinearLayout
+     			    android:layout_width="170dp"
+     			    android:layout_height="match_parent"
+     			    android:orientation="vertical" >
+
+     				<TextView
+        			android:id="@+id/t2"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:layout_alignRight="@+id/t4"
+        			android:layout_below="@+id/t1"
+        			android:text="Name:"
+        			android:textAppearance="?android:attr/textAppearanceMedium" />
+     			    <TextView
+        			android:id="@+id/t3"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:layout_alignLeft="@+id/t2"
+        			android:layout_below="@+id/t2"
+        			android:layout_marginTop="46dp"
+        			android:text="Category:"
+    		    	android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+          
+    
+         			<TextView
+        			android:id="@+id/t4"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:layout_alignBottom="@+id/i1"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginTop="46dp"
+        			android:text="Brand:"
+        			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         
+         
+         		<TextView
+        		android:id="@+id/t5"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_above="@+id/rbar_product"
+        		android:layout_alignLeft="@+id/t3"
+        		android:layout_marginTop="46dp"
+        		android:text="Price:"
+        		android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+        		
+    			</LinearLayout>
+     				
+      			<LinearLayout
+      			    android:layout_width="140dp"
+      			    android:layout_height="match_parent"
+      			    android:orientation="vertical" >
+
+         		<ImageView
+        		android:id="@+id/i1"
+        		android:layout_width="150dp"
+        		android:layout_height="150dp"
+        		
+        		android:src="@drawable/ic_launcher" />
+
+         		<TextView
+         		    android:id="@+id/t6"
+         		    android:layout_width="wrap_content"
+         		    android:layout_height="wrap_content"
+         		    android:layout_marginTop="50dp"
+         		    android:text="Exp Date:"
+         		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     			</LinearLayout>
+     
+     
+ 		</LinearLayout>
+    	<LinearLayout android:layout_width="match_parent"
+     	 android:layout_height="50dp" >
+    	    <RatingBar
+        android:id="@+id/rbar_product"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+     
+        />
+    	    
+    	</LinearLayout>
+		
+		<LinearLayout 
+    	 android:layout_width="match_parent"
+     	 android:layout_height="60dp"
+     	 android:layout_marginTop="20dp"
+     	 android:orientation="horizontal">"
+              <Button
+        		android:id="@+id/btn_plus"
+        		android:layout_width="60dp"
+        		android:layout_height="50dp"
+        		
+        	
+        		android:text="+" />
+               <EditText
+        		android:id="@+id/e1"
+        		android:layout_width="50dp"
+        		android:layout_height="wrap_content"
+        		android:layout_alignBaseline="@+id/btn_plus"
+        		android:layout_alignBottom="@+id/btn_plus"
+        		android:layout_toRightOf="@+id/t3"
+        		android:ems="10"
+        		android:inputType="number" />
+                <Button
+       			 android:id="@+id/btn_minus"
+        		android:layout_width="60dp"
+        		android:layout_height="50dp"
+        		
+        		
+        		android:text="-" />
+ 		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="60dp"
+		    android:layout_marginTop="20dp"
+		    android:orientation="horizontal">
+
+		    <Button
+		        android:id="@+id/btn_back6"
+		        android:layout_width="100dp"
+		        android:layout_height="50dp"
+		        android:layout_alignParentBottom="true"
+		        android:layout_alignParentLeft="true"
+		        
+		        android:text="Back" />
+
+		    <Button
+		        android:id="@+id/b1"
+		        android:layout_width="100dp"
+		        android:layout_height="50dp"
+		        android:layout_below="@+id/btn_plus"
+		        android:layout_marginLeft="100dp"
+		        
+		        android:text="Add To Cart" />
+		</LinearLayout>
+    
+</LinearLayout>
+
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Product View"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t5"
+        android:layout_alignBottom="@+id/t5"
+        android:layout_alignLeft="@+id/i1"
+        android:layout_marginLeft="24dp"
+        android:text="Expiry Date:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btn_back6"
+        android:layout_alignLeft="@+id/t5"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimaryLight"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/i1"
+        android:layout_alignTop="@+id/e1"
+        android:background="@color/colorPrimaryLight"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btn_back6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorPrimaryLight"
+        android:text="Back" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignRight="@+id/rbar_product"
+        android:layout_alignTop="@+id/t2"
+        android:src="@drawable/ic_launcher" />
+
+    <RatingBar
+        android:id="@+id/rbar_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_plus"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_plus"
+        android:background="@color/colorPrimaryLight"
+        android:text="Add To Cart" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rbar_product"
+        android:layout_alignLeft="@+id/t3"
+        android:layout_marginBottom="22dp"
+        android:text="Price:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/i1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="39dp"
+        android:text="Brand:"
+        android:textAppearance="?android:attr/textAppearanceMedium" /> 
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t2"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="46dp"
+        android:text="Category:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/t4"
+        android:layout_below="@+id/t1"
+        android:text="Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_plus"
+        android:layout_alignBottom="@+id/btn_plus"
+        android:layout_toRightOf="@+id/t3"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>
+
+ -->
