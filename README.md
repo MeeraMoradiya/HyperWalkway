@@ -8,6 +8,6 @@ a catalogue, then customer have to search for product either by text or voice wh
 lead them to location of the product. After scanning the qrcode of product customer is
 able to view the product information along with expiry and discount notification pop-ups.
 Also customer is allow to set/ unset budget. They can also provide ratings and feedbacks.
-
-
+  
+**Screenshots available in Images folder**
 
