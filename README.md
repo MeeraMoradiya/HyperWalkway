@@ -1,4 +1,13 @@
 # HyperWalkway
 
-![Image of Login](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture.PNG) ![Image of Register](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture1.PNG) ![Image of Register](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture2.PNG) ![Image of Register](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture4.PNG) ![Image of Register](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture5.PNG)![Image of Register](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture6.PNG)![Image of Register](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture7.PNG)![Image of Register](https://github.com/MeeraMoradiya/HyperWalkway/blob/master/Images/Capture8.PNG)
+**Android Application for shopping mall**
+</br>
+<p>This application helps customers to find products into large shopping mall using bluetooth devices. 
+Customer can make wishlist in which they will be provided
+a catalogue, then customer have to search for product either by text or voice which will
+lead them to location of the product. After scanning the qrcode of product customer is
+able to view the product information along with expiry and discount notification pop-ups.
+Also customer is allow to set/ unset budget. They can also provide ratings and feedbacks.
+
+
 
